@@ -1,0 +1,361 @@
+<html lang="en">
+<!--divinectorweb.com-->
+<head>
+	<meta charset="UTF-8">
+	<title>Responsive HTML Church Website Template | CSS Flexbox Layout</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap" rel="stylesheet">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="homepage.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h2><a href="#"><img src="tom.jpeg" height="75px" width="80px" align="center"> ST THOMAS CHURCH, AMMEMBAL</a></h2>
+		<ul class="nav">
+			<li>
+				<a href="#home">Home</a>
+			</li>
+			<li>
+				<a href="#about">About</a>
+			</li>
+            <li>
+				<a href="#location">Location</a>
+			</li>
+			<li>
+				<a href="#hallbooking">Hall Booking</a>
+			</li>
+			<li>
+				<a href="#massbooking">Mass Booking</a>
+			</li>
+            <li>
+				<a href="#donation">Donation</a>
+			</li>
+            <li>
+				<a href="#contact">Contact</a>
+			</li>
+            <li>
+				<a href="admin.php">Login</a>
+			</li>
+		</ul>
+	</header>
+	<section class="banner-area" id="home">
+		<br><br><div class="banner-img"></div>
+		<h3>We Help to get things Done</h3><br>
+		<h1>"Unless I see the mark of the nails in his hands and put my finger into the nail marks and put my hand into his side, I will not Believe"<span><br>- ST THOMAS </span></h1><a class="banner-btn" href="#about">More Info</a>
+	</section>
+</header>
+
+
+<!--ABOUT US-->
+	<section class="about-area" id="about">
+		<h3 class="section-title">About The <span>Parish</span></h3>
+		<ul class="about-content">
+			<li class="about-left"></li>
+			<li class="about-right">
+				<h2>We are Taking Small Steps to Make Earth Better Planet of the universe</h2>
+				<p>Before 1931, Ammembal belonged to the Mogarnad and Fajir parishes. Between 1911 and 1923, a chapel was erected by Fr Francis S. D’Souza. Starting in 1919, church services were held in a that ched hall. Mr. J. F. Rego generously donated the present church site, originally part of his Chelur property, which included a residence for the priest and a makeshift chapel in his bungalow. On January 1, 1932, Bishop Victor Fernandes established the parish, appointing Fr Gaspar S. Lewis as its inaugural priest, who built the presbytery. In 1946, Fr Joseph D’Souza constructed the new church and presbytery.<br>Further additions were made by subsequent priests – Fr Placid Pereira added a new altar, and Fr E. Ligoury Pinto built the church portico in 1963. In 2006, on the church’s Platinum Jubilee, Fr Joseph Machado renovated the building and initiated a Health Fund for the parishioners’ welfare.</p>
+			</li>
+            </ul>
+            <h3 class="section-title">About The <span>Parish Priest</span></h3>
+            <ul class="about-content">
+            <li class="about-right1"></li>
+			<li class="about-left1">
+				<h2><u>FR MICHAEL D'SILVA</u></h2>
+			
+                <br><br><h3><p><i class="fa fa-arrow-right"></i>Native: Paladka</p>
+                <p><i class="fa fa-arrow-right"></i>>Father: Maurice D'silva</p>
+                <p><i class="fa fa-arrow-right"></i>Mother: Theresa D'silva</p>
+                <p><i class="fa fa-arrow-right"></i>Date of Ordination: 26 April 1993</p>
+                <p><i class="fa fa-arrow-right"></i>Phone: 9448215478 </p>
+                 <p><i class="fa fa-arrow-right"></i>Email: michaeldsilva2@gmail.com</p></h3>
+                
+			</li>
+		</ul>
+	</section>
+
+
+
+<!--MESSAGE-->	
+	<section class="msg-area">
+		<div class="msg-content">
+			<h2>Quote of the day</h2>
+			<p><h3>"Fear not, for I am with you; be not dismayed, for I am your God; I will strengthen you, I will help you, I will uphold you with my righteous right.<br> - Isaiah 41:10 "</h3></p>
+		</div>
+	</section>
+
+
+<!--location-->
+	<section id="location">
+		<h3 class="section-title"><u>OUR<span> LOCATION</u></span></h3>
+	 <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.031543576163!2d74.9788221749161!3d12.84123818746226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba4a7242db63881%3A0x26f3e5c937e73cf3!2sSt.%20Thomas%20the%20Apostle%20Church%20Ammembal!5e0!3m2!1sen!2sin!4v1711338388639!5m2!1sen!2sin" width="800" height="600"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+	</section>
+	
+
+
+<!--HALL BOOKING-->
+	<section id="hallbooking" class="bca">
+		<h3 class="section-title"><u>Hall<span> Booking</u></span></h3>
+        <form id="hallForm" method="post" action="hall1.php" enctype="multipart/form-data">
+            <table align="center">
+				<tr>
+                    <td><label>Name:</label></td>
+                    <td><input type="text" id="name" name="name" placeholder="Full name" required><br></td>
+                </tr>
+				<tr>
+                    <td><label>Phone:</label></td>
+                    <td> <input type="phone" id="phone" name="phone" placeholder="+91" pattern="[0-9]{10}" required></td>
+                </tr>
+				<tr>
+                    <td><label>Email:</label></td>
+                    <td> <input type="text" id="email" name="email" placeholder="abc@gmail.com" required></td>
+                </tr>
+				<tr>
+                    <td><label>Select Date:</label></td>
+                    <td><input type="date" id="date" name="date"></td>
+                </tr>
+                <tr>
+                    <td><label>Select Time:</label></td>
+                    <td><input type="radio" name="time" value="10:00 A.M -3:00 P.M">10:00 A.M-3:00 P.M<br><input type="radio" name="time" value="6:00 P.M-10:00 P.M">6:00 P.M-10:00 P.M</td>
+				</tr>
+				<tr>
+					<td><label>Event Name:</label></td>
+				    <td><input type="text" id="eventname" name="eventname" placeholder="Event Name" required><br></td>
+				</tr>
+				<tr>
+                    <td><label>Amount:</label></td>
+                    <td><input type="number" id="amount" name="amount" placeholder="Advance Rs.15000"><br></td>
+                </tr>
+				<tr>
+                    <td><label>Payment Type:</label></td>
+                   <td><button id="openButton1" type="button" name="ptype">UPI</button></td>
+                </tr>
+                <tr>
+                    <td><label>Upload Transaction:</label></td>
+                    <td><input type="file" value="Upload Transaction:" name="uploadfile"  required></td>
+                    
+                </tr>
+                <tr>
+                    <td><input type="submit" name="submit" value="BOOK"></td>
+                </tr>
+       
+        </form>
+    </table>
+
+        <dialog id="popupBox1">
+            <h2>Scan Here</h2>
+            <img src="qr1.jpg" alt="Image" width="200px" height="200px">
+            <button id="closeButton1" type="button">Close</button>
+
+        </dialog>
+        </section>  
+  
+        <script>
+            // JavaScript to handle showing and hiding the popup box for UPI
+            document.addEventListener('DOMContentLoaded', function() {
+            var openButton1 = document.getElementById('openButton1');
+            var popupBox1 = document.getElementById('popupBox1');
+            var closeButton1 = document.getElementById('closeButton1');
+
+            openButton1.addEventListener('click', function() {
+                popupBox1.showModal();
+            });
+
+            closeButton1.addEventListener('click', function() {
+                popupBox1.close();
+            });
+        });
+
+        </script>
+
+
+    <!--Mass BOOKING-->
+	<section id="massbooking" class="bcaa">
+        <h3 class="section-title"><u>Mass<span> Booking</u></span></h3>
+        <form id="massForm" method="post" action="mass1.php" enctype="multipart/form-data">
+            <table align="center">
+                <tr>
+                    <td><label>Name:</label></td>
+                    <td><input type="text" id="name" name="name" placeholder="Full name" required><br></td>
+                </tr>
+                <tr>
+                    <td><label>Phone:</label></td>
+                    <td> <input type="phone" id="phoneno" name="phone" placeholder="+91" pattern="[0-9]{10}" required></td>
+                </tr>
+                <tr>
+                    <td><label>Select Date:</label></td>
+                    <td><input type="date" id="date" name="date"></td>
+                </tr>
+                <tr>
+                    <td><label>Select Time:</label></td>
+                    <td>
+                        <select name="time">
+                            <option value="">Select Timings</option>
+                            <option value="6:30 A.M">6:30 A.M</option>
+                            <option value="8:30 A.M">8:30 A.M</option>
+                            <option value="10:30 A.M">10:30 A.M</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Place:</label></td>
+                    <td><input type="text" id="place" name="place" required><br></td>
+                </tr>
+                <tr>
+                    <td><label>Mass Type:</label></td>
+                    <td><input type="text" id="mtype" name="mtype" placeholder="Thanksgiving mass"><br></td>
+                </tr>
+                <tr>
+                    <td><label>Amount:</label></td>
+                    <td><input type="number" id="amount" name="amount" placeholder="Amount Rs.200"><br></td>
+                </tr>
+                <tr>
+                    <td><label>Payment Type:</label></td>
+                    <td>
+                        <!-- Change the button type to "button" -->
+                        <button id="openButtonMass" type="button" name="ptype">UPI</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Upload Transaction:</label></td>
+                    <td><input type="file" id="Transaction" name="uploadfile" value="Upload Transaction:"  required></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" name="submit" value="BOOK"></td>
+                </tr>
+            </form>
+            </table>
+        
+
+
+        <!-- Move the dialog outside the form -->
+        <dialog id="popupBoxMass">
+            <h2>Scan Here</h2>
+            <img src="qr1.jpg" alt="Image" width="200px" height="200px">
+            <button id="closeButtonMass" type="button">Close</button>
+        </dialog>
+    </section>
+
+    <!-- JavaScript for Mass Booking -->
+<script>
+            document.addEventListener('DOMContentLoaded', function() {
+            var openButtonMass = document.getElementById('openButtonMass');
+            var popupBoxMass = document.getElementById('popupBoxMass');
+            var closeButtonMass = document.getElementById('closeButtonMass');
+
+            openButtonMass.addEventListener('click', function() {
+                popupBoxMass.showModal();
+            });
+
+            closeButtonMass.addEventListener('click', function() {
+                popupBoxMass.close();
+            });
+        });
+</script>
+	
+
+<!--DONATION-->	
+	<section class="bc" id="donation">
+        <h3 class="section-title"><u>Don<span>ation</u></span></h3>
+		<form id="donateForm"   method="post" action="donate1.php" enctype="multipart/form-data">
+            <table align="center">
+				<tr>
+                    <td><label>Name:</label></td>
+                    <td><input type="text" id="name" name="name" placeholder="Full name" required><br></td>
+                </tr>
+				<tr>
+                    <td><label>Phone:</label></td>
+                    <td> <input type="phone" id="phone" name="phone" placeholder="+91" pattern="[0-9]{10}" required></td>
+                </tr>
+				<tr>
+                    <td><label>Email:</label></td>
+                    <td> <input type="text" id="email" name="email" placeholder="abc@gmail.com" required></td>
+                </tr>
+				<tr>
+                    <td><label>Select Date:</label></td>
+                    <td><input type="date" id="date" name="date"></td>
+                </tr>
+				<tr>
+					<td><label>Reason:</label></td>
+				    <td><input type="text" id="reason" name="reason" placeholder="Education.....etc" required><br></td>
+				</tr>
+				<tr>
+                    <td><label>Amount:</label></td>
+                    <td><input type="number" id="amount" name="amount" required><br></td>
+                </tr>
+				<tr>
+                    <td><label>Payment Type:</label></td>
+                    <td>
+                        <!-- Change the button type to "button" -->
+                        <button id="openButtonDonation" type="button" name="ptype">UPI</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Upload Transaction:</label></td>
+                    <td><input type="file" name="uploadfile" value="Upload Transaction:"  required></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" name="submit" value="DONATE"></td>
+                </tr>
+            </form>
+            </table>
+      
+        <!-- Move the dialog outside the form -->
+        <dialog id="popupBoxDonation">
+            <h2>Scan Here</h2>
+            <img src="qr1.jpg" alt="Image" width="200px" height="200px">
+            <button id="closeButtonDonation" type="button">Close</button>
+        </dialog>
+    </section>
+
+   <!-- JavaScript for Donation -->
+    <script>
+         document.addEventListener('DOMContentLoaded', function() {
+            var openButtonDonation = document.getElementById('openButtonDonation');
+            var popupBoxDonation = document.getElementById('popupBoxDonation');
+            var closeButtonDonation = document.getElementById('closeButtonDonation');
+
+            openButtonDonation.addEventListener('click', function() {
+                popupBoxDonation.showModal();
+            });
+
+            closeButtonDonation.addEventListener('click', function() {
+                popupBoxDonation.close();
+            });
+        });
+    </script>
+	
+	
+<!--CONTACT-->	
+	<section class="contact-area" id="contact">
+		<h3 class="section-title">Our <span>Contact</span></h3>
+		<ul class="contact-content">
+			<li>
+				<i class="fa fa-map-marker"></i>
+				<p>Ammembal, Chelur P.O. Via Kurnad 574153,<br>
+				Bantwal Taluk.</p>
+			</li>
+			<li>
+				<i class="fa fa-phone"></i>
+				<p>Landline: 08255-271244<br>
+				Mobile: 8277939305</p>
+			</li>
+			<li>
+				<i class="fa fa-envelope"></i>
+				<p>ammembalchurch31@gmail.com</p>
+			</li>
+		</ul>
+	</section>
+
+<!--Footer-->
+	<footer>
+		<div class="footerContainer">
+            <div class="socialIcons">
+                <a href="https://www.facebook.com/theammembalchurch/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.youtube.com/channel/UCCJ5_UlTLQ6RwX1FHYR7eOg/videos"><i class="fa-brands fa-youtube"></i></a>
+                
+            </div>
+            <h2>ST THOMAS CHURCH, AMMEMBAL</h2>
+
+	</footer>
+</body>
+</html>
